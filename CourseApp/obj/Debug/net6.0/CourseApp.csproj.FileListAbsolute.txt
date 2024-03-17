@@ -1,0 +1,14 @@
+D:\CourseApp\CourseApp\bin\Debug\net6.0\CourseApp.exe
+D:\CourseApp\CourseApp\bin\Debug\net6.0\CourseApp.deps.json
+D:\CourseApp\CourseApp\bin\Debug\net6.0\CourseApp.runtimeconfig.json
+D:\CourseApp\CourseApp\bin\Debug\net6.0\CourseApp.dll
+D:\CourseApp\CourseApp\bin\Debug\net6.0\CourseApp.pdb
+D:\CourseApp\CourseApp\obj\Debug\net6.0\CourseApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\CourseApp\CourseApp\obj\Debug\net6.0\CourseApp.AssemblyInfoInputs.cache
+D:\CourseApp\CourseApp\obj\Debug\net6.0\CourseApp.AssemblyInfo.cs
+D:\CourseApp\CourseApp\obj\Debug\net6.0\CourseApp.csproj.CoreCompileInputs.cache
+D:\CourseApp\CourseApp\obj\Debug\net6.0\CourseApp.dll
+D:\CourseApp\CourseApp\obj\Debug\net6.0\refint\CourseApp.dll
+D:\CourseApp\CourseApp\obj\Debug\net6.0\CourseApp.pdb
+D:\CourseApp\CourseApp\obj\Debug\net6.0\CourseApp.genruntimeconfig.cache
+D:\CourseApp\CourseApp\obj\Debug\net6.0\ref\CourseApp.dll

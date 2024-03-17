@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8XiKMaXG0PidRXrY8dUNw0fdvdKfFxHYCu03qhRPlIvwW7Eum5lSRBk9MfwsNzMFkr1T/ePNQLopPRj5Po3vHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Əsgərxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Əsgərxan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Əsgərxan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Əsgərxan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
