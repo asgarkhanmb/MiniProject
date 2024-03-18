@@ -25,7 +25,7 @@ namespace CourseApp.Controllers
         GroupTeacherName: string groupTeacherName = Console.ReadLine();
             for (int i = 0; i <= 9; i++)
             {
-                if (groupTeacherName.Contains(i.ToString()))
+                if (groupTeacherName.Contains(i.ToString("@#$%^&*()_+!~?<>:''")))
                 {
                     ConsoleExtension.WriteConsole(ConsoleColor.Red, "Please correct teacher name:");
                     goto GroupTeacherName;
