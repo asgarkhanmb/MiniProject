@@ -2,7 +2,6 @@
 using Repository.Data;
 using Repository.Repositories.Interfaces;
 using SendGrid.Helpers.Errors.Model;
-using Service.Helpers.Costants;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +16,7 @@ namespace Repository.Repositories
         {
             try
             {
-                if (data is null) throw new NotFoundException(ResponseMesagges.DataNotFound);
+                if (data is null) throw new NotFoundException("Data not found");
                 AppDbContext<Student>.datas.Add(data);
             }
             catch (Exception ex)

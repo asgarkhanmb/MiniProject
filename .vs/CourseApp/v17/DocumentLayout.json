@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\service\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|solutionrelative:service\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5874AF71-C185-45DA-BF36-B8D2BFEF2975}|CourseApp\\CourseApp.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\courseapp\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5874AF71-C185-45DA-BF36-B8D2BFEF2975}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\service\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|solutionrelative:service\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\repository\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\repository\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\repository\\repositories\\interfaces\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +23,36 @@
       "RelativeMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\service\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|solutionrelative:service\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\service\\services\\interfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\repository\\repositories\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\service\\helpers\\extensions\\consoleextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|solutionrelative:service\\helpers\\extensions\\consoleextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\repository\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5874AF71-C185-45DA-BF36-B8D2BFEF2975}|CourseApp\\CourseApp.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\courseapp\\courseapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5874AF71-C185-45DA-BF36-B8D2BFEF2975}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\courseapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\repository\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\repository\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\service\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|solutionrelative:service\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\repository\\repositories\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46DC37E-096B-4631-9F69-7FC32A26D399}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFB304CA-D71F-46DC-9639-4F7EAB7979BC}|Service\\Service.csproj|c:\\users\\\u0259sg\u0259rxan\\desktop\\yeni qovluq (2)\\miniproject\\service\\helpers\\costants\\responsemesagges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,32 +91,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GroupService.cs",
-              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\GroupService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\GroupService.cs",
-              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\GroupService.cs",
-              "RelativeToolTip": "Service\\Services\\GroupService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAJAAAA",
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\CourseApp\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "CourseApp\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\CourseApp\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "CourseApp\\Controllers\\GroupController.cs",
+              "ViewState": "AQIAANkAAAAAAAAAAADwv64AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:36:19.13Z",
+              "WhenOpened": "2024-03-18T05:19:47.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\StudentService.cs",
-              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\StudentService.cs",
-              "RelativeToolTip": "Service\\Services\\StudentService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwAkAAAABAAAA",
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\GroupRepository.cs",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\GroupRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\GroupRepository.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAswDIAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T23:13:46.363Z",
+              "WhenOpened": "2024-03-17T21:21:05.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAlwBAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T21:11:23.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "Service\\Services\\Interfaces\\IStudentService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwBcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T23:13:09.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IGroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\Interfaces\\IGroupRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interfaces\\IGroupRepository.cs",
@@ -117,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\Interfaces\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interfaces\\IStudentRepository.cs",
@@ -130,59 +166,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\Interfaces\\IStudentService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IStudentService.cs",
-              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\Interfaces\\IStudentService.cs",
-              "RelativeToolTip": "Service\\Services\\Interfaces\\IStudentService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA3wBcAAAA0AAAA",
+              "DocumentIndex": 2,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\StudentRepository.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwBIAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T23:13:09.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IGroupService.cs",
-              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\Interfaces\\IGroupService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IGroupService.cs",
-              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\Interfaces\\IGroupService.cs",
-              "RelativeToolTip": "Service\\Services\\Interfaces\\IGroupService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:36:32.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\Interfaces\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repositories\\Interfaces\\IBaseRepository.cs",
-              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\Interfaces\\IBaseRepository.cs",
-              "RelativeToolTip": "Repository\\Repositories\\Interfaces\\IBaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:11:23.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GroupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\GroupRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repositories\\GroupRepository.cs",
-              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\GroupRepository.cs",
-              "RelativeToolTip": "Repository\\Repositories\\GroupRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:21:05.853Z",
+              "WhenOpened": "2024-03-17T21:30:46.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "CourseApp.csproj",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\CourseApp\\CourseApp.csproj",
+              "RelativeDocumentMoniker": "CourseApp\\CourseApp.csproj",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\CourseApp\\CourseApp.csproj",
+              "RelativeToolTip": "CourseApp\\CourseApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-18T05:19:21.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\Interfaces\\IGroupService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IGroupService.cs",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\Interfaces\\IGroupService.cs",
+              "RelativeToolTip": "Service\\Services\\Interfaces\\IGroupService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T21:36:32.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\GroupService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\GroupService.cs",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\GroupService.cs",
+              "RelativeToolTip": "Service\\Services\\GroupService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAswEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T21:36:19.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsoleExtension.cs",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Helpers\\Extensions\\ConsoleExtension.cs",
+              "RelativeDocumentMoniker": "Service\\Helpers\\Extensions\\ConsoleExtension.cs",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Helpers\\Extensions\\ConsoleExtension.cs",
+              "RelativeToolTip": "Service\\Helpers\\Extensions\\ConsoleExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T05:23:24.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Services\\StudentService.cs",
+              "RelativeToolTip": "Service\\Services\\StudentService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T23:13:46.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\BaseRepository.cs",
@@ -190,25 +247,11 @@
               "RelativeToolTip": "Repository\\Repositories\\BaseRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:13:28.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T21:13:28.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repositories\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Repositories\\StudentRepository.cs",
-              "RelativeToolTip": "Repository\\Repositories\\StudentRepository.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAA5wBQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:30:46.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ResponseMesagges.cs",
               "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Helpers\\Costants\\ResponseMesagges.cs",
               "RelativeDocumentMoniker": "Service\\Helpers\\Costants\\ResponseMesagges.cs",
@@ -216,12 +259,11 @@
               "RelativeToolTip": "Service\\Helpers\\Costants\\ResponseMesagges.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:40:04.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T21:40:04.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Helpers\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "Service\\Helpers\\Exceptions\\NotFoundException.cs",
@@ -233,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Domain\\Models\\Group.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Group.cs",
@@ -245,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Domain\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Student.cs",
@@ -257,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Repository\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Repository\\Data\\AppDbContext.cs",
@@ -269,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\\u018Fsg\u0259rxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Domain\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Common\\BaseEntity.cs",

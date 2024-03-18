@@ -12,3 +12,29 @@ D:\CourseApp\CourseApp\obj\Debug\net6.0\refint\CourseApp.dll
 D:\CourseApp\CourseApp\obj\Debug\net6.0\CourseApp.pdb
 D:\CourseApp\CourseApp\obj\Debug\net6.0\CourseApp.genruntimeconfig.cache
 D:\CourseApp\CourseApp\obj\Debug\net6.0\ref\CourseApp.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.csproj.AssemblyReference.cache
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.AssemblyInfoInputs.cache
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.AssemblyInfo.cs
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.csproj.CoreCompileInputs.cache
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.sourcelink.json
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\refint\CourseApp.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.pdb
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\CourseApp.exe
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\CourseApp.deps.json
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\CourseApp.runtimeconfig.json
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\CourseApp.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\CourseApp.pdb
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\SendGrid.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\StarkbankEcdsa.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\Domain.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\Repository.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\Service.dll
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\Service.pdb
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\Domain.pdb
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\bin\Debug\net6.0\Repository.pdb
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.csproj.Up2Date
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\CourseApp.genruntimeconfig.cache
+C:\Users\Əsgərxan\Desktop\Yeni qovluq (2)\MiniProject\CourseApp\obj\Debug\net6.0\ref\CourseApp.dll

@@ -1,4 +1,6 @@
 ﻿using Domain.Models;
+using Repository.Repositories;
+using Repository.Repositories.Interfaces;
 using Service.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -11,8 +13,8 @@ namespace Service.Services
     public class StudentService:IStudentService
     {
 
-        private readonly IStudentRepository _studentRepository;
-        private readonly IGroupRepository _groupRepository;
+        private readonly StudentRepository _studentRepository;
+        private readonly GroupRepository _groupRepository;
         private int _count;
 
         public StudentService()

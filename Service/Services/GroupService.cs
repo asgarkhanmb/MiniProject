@@ -1,4 +1,6 @@
 ﻿using Domain.Models;
+using Repository.Repositories;
+using Repository.Repositories.Interfaces;
 using Service.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,7 +12,7 @@ namespace Service.Services
 {
     public class GroupService:IGroupService
     {
-        private readonly IGroupRepository _groupRepository;
+        private  GroupRepository _groupRepository;
         private  int _count;
         public GroupService()
         {
@@ -28,7 +30,7 @@ namespace Service.Services
         public void Delete(int id)
         {
             Group group = GetById(id);
-            if (group == null) Console.WriteLine("Group nof found");
+            if (group == null) Console.WriteLine("Group not found");
             _groupRepository.Delete(group);
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(group.Name + " -- " + "Deleted group");
@@ -66,8 +68,7 @@ namespace Service.Services
         {
             return _groupRepository.GetAll(m => m.Room.Trim().ToLower() == roomName.Trim().ToLower());
         }
-
-        public List<Group> GetAllByRoomNames(string search)
+        public List<Group> SearchGroupByNames(string search)
         {
             return _groupRepository.GetAll(m => m.Name.Trim().ToLower() == search.Trim().ToLower());
         }

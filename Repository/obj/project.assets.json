@@ -50,19 +50,6 @@
         "runtime": {
           "bin/placeholder/Domain.dll": {}
         }
-      },
-      "Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Service.dll": {}
-        }
       }
     }
   },
@@ -137,17 +124,12 @@
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
-    },
-    "Service/1.0.0": {
-      "type": "project",
-      "path": "../Service/Service.csproj",
-      "msbuildProject": "../Service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "SendGrid >= 9.29.2",
-      "Service >= 1.0.0"
+      "Domain >= 1.0.0",
+      "SendGrid >= 9.29.2"
     ]
   },
   "packageFolders": {
@@ -182,8 +164,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Əsgərxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\Əsgərxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Service\\Service.csproj"
+            "C:\\Users\\Əsgərxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Əsgərxan\\Desktop\\Yeni qovluq (2)\\MiniProject\\Domain\\Domain.csproj"
             }
           }
         }
