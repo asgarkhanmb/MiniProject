@@ -6,14 +6,19 @@ using Service.Helpers.Extensions;
 using Service.Services;
 using System;
 using System.Collections.Generic;
+using System.Xml.Linq;
+using System.Text.RegularExpressions;
 
 
 GroupController groupController = new GroupController();
 
 StudentController studentController = new StudentController();
-ConsoleExtension.WriteConsole(ConsoleColor.Yellow, "💻 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝘾𝙊𝙐𝙍𝙎𝙀 💻");
-ConsoleExtension.WriteConsole(ConsoleColor.DarkMagenta, "~~~~~~~~~~~~~~~~~~~~");
-ConsoleExtension.WriteConsole(ConsoleColor.Green, "➯ Select One Of The Operators: ");
+ConsoleExtension.WriteConsole(ConsoleColor.Yellow, "                                                💻 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝘾𝙊𝙐𝙍𝙎𝙀 💻");
+ConsoleExtension.WriteConsole(ConsoleColor.DarkMagenta, "                                               ~~~~~~~~~~~~~~~~~~~~~~");
+ConsoleExtension.WriteConsole(ConsoleColor.Green, "                                           ≫ Select One Of The Operators≪");
+ConsoleExtension.WriteConsole(ConsoleColor.DarkMagenta, "                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+
 
 while (true)
 {
@@ -107,10 +112,17 @@ SelectOption: string selectOption = Console.ReadLine();
     }
     static void GetMenues()
     {
-        ConsoleExtension.WriteConsole(ConsoleColor.DarkCyan, "1 - Create Group\n2 - Delete Group\n3 - Get Group By Id\n4 - Get All Groups\n5" +
-          " - Search By Teacher Name\n6 - Get All Groups By Room\n7 - Search For Groups By Name\n8" +
-          " - Update Group\n9 - Create Student\n10 - Delete Student\n11 - Get Student By Age \n12 - Get Student By Id\n13" +
-          " - Get All Students By Group Id\n14 - Search Method For Students By Name Or Surname\n15 - Update Student");
+        ConsoleExtension.WriteConsole(ConsoleColor.Green, "                                                      ☑ Group");
+        ConsoleExtension.WriteConsole(ConsoleColor.DarkMagenta, "                                                      ~~~~~~~~~");
+        ConsoleExtension.WriteConsole(ConsoleColor.DarkCyan, "                                        1 - Create Group |~| 2 - Delete Group\n                                     3 - Get Group By Id |~| 4 - Get All Groups\n" +
+
+          "                                5-Search By Teacher Name |~| 6 - Get All Groups By Room\n                           7 - Search For Groups By Name |~| 8 - Update Group\n");
+        ConsoleExtension.WriteConsole(ConsoleColor.Green, "                                                      ☑ Student");
+        ConsoleExtension.WriteConsole(ConsoleColor.DarkMagenta, "                                                      ~~~~~~~~~~~");
+        ConsoleExtension.WriteConsole(ConsoleColor.DarkCyan, "                                       9 - Create Student |~| 10 - Delete Student\n" +
+            "                                  11 - Get Student By Age |~| 12 - Get Student By Id\n" +
+        "                         13- Get All Students By Group Id |~| 14 - Search Method For Students By Name Or Surname\n" +
+        "                                                  15 - Update Student");
     }
 }
 

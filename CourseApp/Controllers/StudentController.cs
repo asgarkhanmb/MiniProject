@@ -19,7 +19,7 @@ namespace CourseApp.Controllers
             try
             {
                 
-                ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add student id: ");
+                ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add group id: ");
             GroupId: string groupId = Console.ReadLine();
                 int selectedGroupId;
 
