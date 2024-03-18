@@ -1,6 +1,7 @@
 ﻿using Domain.Models;
 using Repository.Repositories;
 using Repository.Repositories.Interfaces;
+using Service.Helpers.Exceptions;
 using Service.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace Service.Services
     public class GroupService:IGroupService
     {
         private  GroupRepository _groupRepository;
-        private  int _count;
+        private  int _count=1;
         public GroupService()
         {
             _groupRepository = new GroupRepository();
@@ -40,7 +41,7 @@ namespace Service.Services
         public Group GetById(int id)
         {
             var group = _groupRepository.Get(m => m.Id == id);
-            if (group is null) return null;
+            if (group is null) throw new NotFoundException("Data not found");
             return group;
         }
 

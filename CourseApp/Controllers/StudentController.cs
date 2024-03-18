@@ -36,9 +36,8 @@ namespace CourseApp.Controllers
                     ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add student name: ");
 
                 Crname: string studentName = Console.ReadLine();
-                    for (int i = 0; i <= 9; i++)
-                    {
-                        if (studentName.Contains(i.ToString()))
+                    
+                        if (studentName.Any(char.IsLetter))
                         {
                             ConsoleExtension.WriteConsole(ConsoleColor.Red, "Please correct name: ");
                             goto Crname;
@@ -48,14 +47,10 @@ namespace CourseApp.Controllers
                             ConsoleExtension.WriteConsole(ConsoleColor.Red, "Name cant be empty: ");
                             goto Crname;
                         }
-
-                    }
                     ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add student surname: ");
 
                 Creatsneme: string studentSurName = Console.ReadLine();
-                    for (int i = 0; i <= 9; i++)
-                    {
-                        if (studentSurName.Contains(i.ToString()))
+                        if (studentSurName.Any(char.IsLetter))
                         {
                             ConsoleExtension.WriteConsole(ConsoleColor.Red, "Please correct  surname: ");
                             goto Creatsneme;
@@ -65,8 +60,6 @@ namespace CourseApp.Controllers
                             ConsoleExtension.WriteConsole(ConsoleColor.Red, "Surname cant be empty: ");
                             goto Creatsneme;
                         }
-
-                    }
                     ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add student age: ");
 
                 Age: string studentAge = Console.ReadLine();
@@ -140,23 +133,17 @@ namespace CourseApp.Controllers
 
                 ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add student new surname: ");
             NewStudentSurname: string studentNewsurname = Console.ReadLine();
-                for (int i = 0; i <= 9; i++)
-                {
-                    if (studentNewName.Contains(i.ToString()))
+               
+                    if (studentNewName.Any(char.IsLetter))
                     {
                         ConsoleExtension.WriteConsole(ConsoleColor.Red, "Student name is not correct: ");
                         goto NewStudentName;
                     }
-                }
-                for (int i = 0; i <= 9; i++)
-                {
-                    if (studentNewsurname.Contains(i.ToString()))
+                     else if (studentNewsurname.Any(char.IsLetter))
                     {
                         ConsoleExtension.WriteConsole(ConsoleColor.Red, "Student surname is not correct: ");
                         goto NewStudentSurname;
                     }
-
-                }
 
                 ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add student new age: ");
             StNewAge: string studentNewAge = Console.ReadLine();

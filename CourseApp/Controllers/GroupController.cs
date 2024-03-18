@@ -12,20 +12,21 @@ namespace CourseApp.Controllers
     public class GroupController
     {
         private readonly GroupService groupService = new();
+        
         public void Create()
         {
             ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add group name:");
         GroupName: string groupName = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(groupName))
+            try
             {
-                ConsoleExtension.WriteConsole(ConsoleColor.Red, "Group name can't be eempty:");
-                goto GroupName;
-            }
-            ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add teacher name:");
-        GroupTeacherName: string groupTeacherName = Console.ReadLine();
-            for (int i = 0; i <= 9; i++)
-            {
-                if (groupTeacherName.Contains(i.ToString()))
+                if (string.IsNullOrWhiteSpace(groupName))
+                {
+                    ConsoleExtension.WriteConsole(ConsoleColor.Red, "Group name can't be eempty:");
+                    goto GroupName;
+                }
+                ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add teacher name:");
+            GroupTeacherName: string groupTeacherName = Console.ReadLine();
+                if (!groupTeacherName.Any(char.IsLetter))
                 {
                     ConsoleExtension.WriteConsole(ConsoleColor.Red, "Please correct teacher name:");
                     goto GroupTeacherName;
@@ -35,62 +36,69 @@ namespace CourseApp.Controllers
                     ConsoleExtension.WriteConsole(ConsoleColor.Red, "Teacher name can't be empty");
                     goto GroupTeacherName;
                 }
+                ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add room name:");
+            RoomName: string roomName = Console.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(roomName))
+                {
+                    ConsoleExtension.WriteConsole(ConsoleColor.Red, "Room name can't be empty:");
+                    goto RoomName;
+                }
+
+                Group group = new Group
+                {
+                    Name = groupName,
+                    Teacher = groupTeacherName,
+                    Room = roomName
+                };
+
+                var result = groupService.Create(group);
+                ConsoleExtension.WriteConsole(ConsoleColor.Green, $"Group id : {result.Id}, Group name : {result.Name}, Teacher name : {result.Teacher}, Room name : {result.Room}");
 
             }
-            ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add room name:");
-        RoomName: string roomName = Console.ReadLine();
-
-            if (string.IsNullOrWhiteSpace(roomName))
+            catch (Exception ex)
             {
-                ConsoleExtension.WriteConsole(ConsoleColor.Red, "Room name can't be empty:");
-                goto RoomName;
+                ConsoleColor.Red.WriteConsole(ex.Message);
             }
-
-            Group group = new Group
-            {
-                Name = groupName,
-                Teacher = groupTeacherName,
-                Room = roomName
-            };
-
-            var result = groupService.Create(group);
-            ConsoleExtension.WriteConsole(ConsoleColor.Green, $"Group id : {result.Id}, Group name : {result.Name}, Teacher name : {result.Teacher}, Room name : {result.Room}");
 
         }
         public void GetById()
         {
-            ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add group id : ");
-        GroupId: string groupId = Console.ReadLine();
-
-            if (string.IsNullOrWhiteSpace(groupId))
+            try
             {
-                ConsoleExtension.WriteConsole(ConsoleColor.Red, "Id cant be empty: ");
-                goto GroupId;
-            }
-            int id;
+                ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add group id : ");
+            GroupId: string groupId = Console.ReadLine();
 
-            bool isGroupId = int.TryParse(groupId, out id);
-
-            if (isGroupId)
-            {
-                Group group1 = groupService.GetById(id);
-                if (group1 != null)
+                if (string.IsNullOrWhiteSpace(groupId))
                 {
-                    ConsoleExtension.WriteConsole(ConsoleColor.Green, $"Group id : {group1.Id}, Group name : {group1.Name}, Teacher name : {group1.Teacher}, Room name : {group1.Room}");
-                }
-
-                else
-                {
-                    ConsoleExtension.WriteConsole(ConsoleColor.Red, "Group not found : ");
+                    ConsoleExtension.WriteConsole(ConsoleColor.Red, "Id cant be empty: ");
                     goto GroupId;
                 }
+                int id;
 
+                bool isGroupId = int.TryParse(groupId, out id);
+
+                if (isGroupId)
+                {
+                    Group group1 = groupService.GetById(id);
+                    if (group1 != null)
+                    {
+                        ConsoleExtension.WriteConsole(ConsoleColor.Green, $"Group id : {group1.Id}, Group name : {group1.Name}, Teacher name : {group1.Teacher}, Room name : {group1.Room}");
+                    }
+                }
+                else
+                {
+                    ConsoleExtension.WriteConsole(ConsoleColor.Red, "Select correct id type: ");
+                    goto GroupId;
+                }
             }
-            else
+            catch (Exception ex)
             {
-                ConsoleExtension.WriteConsole(ConsoleColor.Red, "Select correct id type: ");
-                goto GroupId;
+
+                ConsoleColor.Red.WriteConsole(ex.Message);
+                
             }
+           
 
         }
         public void GetAll()
@@ -234,17 +242,11 @@ namespace CourseApp.Controllers
 
                 ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add group new teacher name: ");
             NewTeacName: string groupNewTeacherName = Console.ReadLine();
-                for (int i = 0; i <= 9; i++)
-                {
-                    if (groupNewTeacherName.Contains(i.ToString()))
+                    if (groupNewTeacherName.Any(char.IsLetter))
                     {
                         ConsoleExtension.WriteConsole(ConsoleColor.Red, "Teacher name is not correct: ");
                         goto NewTeacName;
                     }
-
-
-
-                }
                 ConsoleExtension.WriteConsole(ConsoleColor.Blue, "Add group new room name: ");
             RmName: string groupNewRoomName = Console.ReadLine();
 

@@ -30,25 +30,21 @@ SelectOption: string selectOption = Console.ReadLine();
                 groupController.Create();
                 break;
 
+            case (int)OperationType.DeleteGroup:
+                groupController.Delete();
+                break;
+
+
             case (int)OperationType.GetGroupById:
                 groupController.GetById();
                 break;
 
 
-            case (int)OperationType.UpdateGroup:
-                groupController.Update();
-                break;
-
-
-            case (int)OperationType.DeleteGroup:
-                groupController.Delete();
-                break;
-
             case (int)OperationType.GetAllGroups:
                 groupController.GetAll();
                 break;
 
-            case (int)OperationType.GetAllGroupsByTeacher:
+            case (int)OperationType.SearchByTeacherName:
                 groupController.SearchByTeacherName();
                 break;
 
@@ -60,6 +56,10 @@ SelectOption: string selectOption = Console.ReadLine();
                 groupController.SearchByName();
                 break;
 
+            case (int)OperationType.UpdateGroup:
+                groupController.Update();
+                break;
+
 
             // Students 
 
@@ -67,30 +67,30 @@ SelectOption: string selectOption = Console.ReadLine();
                 studentController.Create();
                 break;
 
-            case (int)OperationType.UpdateStudent:
-                studentController.Update();
+            case (int)OperationType.DeleteStudent:
+                studentController.Delete();
+                break;
+
+            case (int)OperationType.GetStudentsByAge:
+                studentController.GetStudentsByAge();
                 break;
 
             case (int)OperationType.GetStudentById:
                 studentController.GetById();
                 break;
 
-            case (int)OperationType.DeleteStudent:
-                studentController.Delete();
-                break;
-
-
-            case (int)OperationType.GetStudentsByAge:
-                studentController.GetStudentsByAge();
-                break;
 
             case (int)OperationType.GetAllStudentsByGroupId:
                 studentController.GetAllStudentByGrupId();
                 break;
 
-
             case (int)OperationType.SearchForStudentsByNameOrSurname:
                 studentController.Search();
+                break;
+
+
+            case (int)OperationType.UpdateStudent:
+                studentController.Update();
                 break;
 
 
@@ -107,10 +107,10 @@ SelectOption: string selectOption = Console.ReadLine();
     }
     static void GetMenues()
     {
-        ConsoleExtension.WriteConsole(ConsoleColor.DarkCyan, "1 - Create group\n2 - Get group by id\n3 - Update group\n4 - Delete group\n5" +
-          " - Get all groups\n6 - Search for groups by teacher name\n7 - Get all groups by room\n8" +
-          " - Search method for groups by name\n9 - Create student\n10 - Update student\n11 - Get student by Id\n12 - Delete student\n13" +
-          " - Get students by age\n14 - Get all students by group id\n15 - Search method for students by name or surname");
+        ConsoleExtension.WriteConsole(ConsoleColor.DarkCyan, "1 - Create Group\n2 - Delete Group\n3 - Get Group By Id\n4 - Get All Groups\n5" +
+          " - Search By Teacher Name\n6 - Get All Groups By Room\n7 - Search For Groups By Name\n8" +
+          " - Update Group\n9 - Create Student\n10 - Delete Student\n11 - Get Student By Age \n12 - Get Student By Id\n13" +
+          " - Get All Students By Group Id\n14 - Search Method For Students By Name Or Surname\"\n15 - Update Student");
     }
 }
 

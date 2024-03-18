@@ -12,7 +12,7 @@ namespace Service.Enums
         DeleteGroup,
         GetGroupById,
         GetAllGroups,
-        GetAllGroupsByTeacher,
+        SearchByTeacherName,
         GetAllGroupsByRoom,
         SearchForGroupsByName,
         UpdateGroup,
