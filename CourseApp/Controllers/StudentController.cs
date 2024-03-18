@@ -38,7 +38,7 @@ namespace CourseApp.Controllers
                 Crname: string studentName = Console.ReadLine();
                     for (int i = 0; i <= 9; i++)
                     {
-                        if (studentName.Contains(i.ToString("@#$%^&*()_+!~?<>:''")))
+                        if (studentName.Contains(i.ToString()))
                         {
                             ConsoleExtension.WriteConsole(ConsoleColor.Red, "Please correct name: ");
                             goto Crname;
@@ -55,7 +55,7 @@ namespace CourseApp.Controllers
                 Creatsneme: string studentSurName = Console.ReadLine();
                     for (int i = 0; i <= 9; i++)
                     {
-                        if (studentSurName.Contains(i.ToString("@#$%^&*()_+!~?<>:''")))
+                        if (studentSurName.Contains(i.ToString()))
                         {
                             ConsoleExtension.WriteConsole(ConsoleColor.Red, "Please correct  surname: ");
                             goto Creatsneme;
@@ -142,7 +142,7 @@ namespace CourseApp.Controllers
             NewStudentSurname: string studentNewsurname = Console.ReadLine();
                 for (int i = 0; i <= 9; i++)
                 {
-                    if (studentNewName.Contains(i.ToString("@#$%^&*()_+!~?<>:''")))
+                    if (studentNewName.Contains(i.ToString()))
                     {
                         ConsoleExtension.WriteConsole(ConsoleColor.Red, "Student name is not correct: ");
                         goto NewStudentName;
@@ -150,7 +150,7 @@ namespace CourseApp.Controllers
                 }
                 for (int i = 0; i <= 9; i++)
                 {
-                    if (studentNewsurname.Contains(i.ToString("@#$%^&*()_+!~?<>:''")))
+                    if (studentNewsurname.Contains(i.ToString()))
                     {
                         ConsoleExtension.WriteConsole(ConsoleColor.Red, "Student surname is not correct: ");
                         goto NewStudentSurname;
