@@ -1,6 +1,7 @@
 ﻿using Domain.Models;
 using Repository.Repositories;
 using Repository.Repositories.Interfaces;
+using Service.Helpers.Extensions;
 using Service.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -53,10 +54,10 @@ namespace Service.Services
         public void Delete(int id)
         {
             Student student = GetById(id);
-            if (student == null) Console.WriteLine("Group nof found");
+            if (student == null) ConsoleColor.Red.WriteConsole("Student not found");
             _studentRepository.Delete(student);
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(student.Name + " -- " + "Deleted group");
+            Console.WriteLine(student.Name + " -- " + "Deleted student");
         }
 
 

@@ -18,6 +18,7 @@ namespace Service.Services
         public GroupService()
         {
             _groupRepository = new GroupRepository();
+           
         }
 
         public Group Create(Group group)
@@ -53,7 +54,7 @@ namespace Service.Services
         public Group Update(int id, Group group)
         {
             Group dbGroup = GetById(id);
-            if (dbGroup is null) return null;
+            if (dbGroup is null) throw new NotFoundException("Data not found");
             group.Id = dbGroup.Id;
 
             _groupRepository.Update(group);
@@ -61,7 +62,7 @@ namespace Service.Services
         }
 
         public List<Group> GetAllByTeacherName(string name)
-        {
+        {   
             return _groupRepository.GetAll(m => m.Teacher.Trim().ToLower() == name.Trim().ToLower());
         }
 
